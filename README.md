@@ -19,7 +19,7 @@ claude sees: "Work through this using the ReAct pattern — alternate between
 No API key needed. Prompte runs entirely on your existing Claude Code or Codex session.
 
 ```bash
-git clone https://github.com/you/prompte-mcp
+git clone https://github.com/AlanRoybal/prompte-mcp
 cd prompte-mcp
 node bin/setup.js
 ```
