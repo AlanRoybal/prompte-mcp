@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node --test tests/core.test.js)",
+      "Bash(node --test tests/features.test.js)",
+      "Bash(node --test tests/mcp.test.js)",
+      "Bash(node --test tests/)",
+      "Bash(node --test tests/core.test.js tests/features.test.js tests/mcp.test.js)",
+      "Bash(node:*)"
+    ]
+  }
+}

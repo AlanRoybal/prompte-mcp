@@ -1,0 +1,20 @@
+{
+  "name": "prompte-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that enhances AI prompts with chain-of-thought, few-shot, tree-of-thought, and more",
+  "main": "bin/prompte-mcp.js",
+  "bin": {
+    "prompte-mcp": "bin/prompte-mcp.js"
+  },
+  "scripts": {
+    "start": "node bin/prompte-mcp.js",
+    "setup": "node bin/setup.js",
+    "test": "node --test tests/core.test.js tests/mcp.test.js tests/features.test.js"
+  },
+  "keywords": ["mcp", "prompt", "prompt-engineering", "claude", "ai"],
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
